@@ -4,5 +4,3 @@ Rails.application.routes.draw do
   resources :genres, except: [:update, :destroy]
   resources :artists, except: [:update, :destroy]
 end
-
-
