@@ -5,4 +5,4 @@ Rails.application.routes.draw do
   resources :artists, except: [:update, :destroy]
 end
 
-end
+
